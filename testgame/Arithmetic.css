@@ -1,0 +1,17 @@
+body
+{
+    background-color: linen;
+}
+h1
+{
+    color: maroon;
+}
+div
+{
+    background:#ffffff;
+    float:left;
+    height:50px;
+    width:50px;
+    border-style: solid;
+    border-color: #000000;"
+}
