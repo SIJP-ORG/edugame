@@ -85,7 +85,7 @@ function drawButtons(num)
     var initX = 300;
     for (var i = 1; i <= num; i++)
     {
-        var button = new Button(initX + (100 * i), 400, 75, 75, 'button' + i, 'images/Apple' + i + '.png');
+        var button = new Button(initX + (100 * i), 400, 75, 75, 'button' + i, 'Apple' + i + '.png');
     }
 }
 
@@ -95,7 +95,7 @@ function drawImages(num)
     var initX = 280;
     for (var i = 1; i <= num; i++)
     {
-        var image = new Image(initX + (100 * i), 200, 100, 100, 'image' + i, 'images/Apple1.png');
+        var image = new Image(initX + (100 * i), 200, 100, 100, 'image' + i, 'Apple1.png');
         document.querySelector("#image" + i).style.display="none";
     }
 }
